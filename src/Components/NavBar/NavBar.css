@@ -1,0 +1,70 @@
+.navBar{
+    background-color: rgb(41, 40, 40);
+    width: 100%;
+    height: 3rem;
+    border-bottom:2px solid rgb(95, 94, 94);
+    display:flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.store-name{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.store-name>h2{
+    background-color: transparent;
+    color:white;
+    margin-left: -10px;
+}
+.store-name>img{
+    width:70px;
+    padding: 0 1rem;
+    background-color:transparent;
+}
+.search-bar{
+    width:50%;
+    background-color: transparent;
+    display: flex;
+    align-items:center;
+
+}
+.search{
+    display: flex;
+    width: 100%;
+    align-items:center;
+    padding: 0 1rem;
+    background-color:transparent;
+}
+.search:hover{
+    outline:1px solid rgb(143, 141, 141)
+}
+.search:active{
+    outline:1px solid rgb(143, 141, 141)
+}
+.search>img{
+    background-color:transparent;
+}
+.search-bar>button{
+    padding: 0 0.5rem;
+    border: 2px solid grey;
+    color: grey;
+}
+.search>input{
+    padding: 0 1rem;
+    width:95%;
+    height: fit-content;
+    border: none;
+    outline:none;
+    background-color:transparent;
+}
+.icons{
+    background-color: transparent;
+    display: flex;
+    align-items:center;
+}
+.icons>img{
+    width:25px;
+    padding: 0 1rem;
+    background-color:transparent;
+}
