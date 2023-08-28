@@ -9,7 +9,7 @@ const NavBar=(bookData)=>{
         <div className="navBar"> 
             <div className="store-name">
                 <img src={require("./Images/brand-logo.png")}  alt="logo"/>
-                <h2>BooK StorE</h2>
+                <h2>BooK</h2><span>STORE</span>
             </div>
             <div className="search-bar">
                 <div className="search">

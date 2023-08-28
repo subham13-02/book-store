@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from "react";
 import NavBar from "./Components/NavBar/NavBar";
-import MoreBooks from "./Components/MoreBooks/MoreBooks";
+import Main from "./Components/Main/Main";
 import "./App.css"
 import axios from "axios"
 
@@ -34,7 +34,7 @@ useEffect(()=>{
   return (
     <div className="App">
       <NavBar />
-      <MoreBooks booksDetails1={booksDetails1} booksDetails2={booksDetails2}/>
+      <Main booksDetails1={booksDetails1} booksDetails2={booksDetails2}/>
       
     </div>
   );

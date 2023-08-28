@@ -17,6 +17,11 @@
     color:white;
     margin-left: -10px;
 }
+.store-name>span{
+    background-color: transparent;
+    color:rgb(82, 147, 241);
+    font-size: 25px;
+}
 .store-name>img{
     width:70px;
     padding: 0 1rem;
@@ -67,4 +72,7 @@
     width:25px;
     padding: 0 1rem;
     background-color:transparent;
+}
+.icons>img:hover{
+    cursor: pointer;
 }
